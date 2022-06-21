@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <Title />
       <Form setWord={setWord} getPhotoData={getPhotoData} />
-      <Results />
+      <Results photo={photo} />
     </div>
   )
 }
